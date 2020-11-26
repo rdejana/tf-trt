@@ -16,6 +16,12 @@ The script will take some time to complete.  Once done, reboot your NX.
 ### TensorFlow 2.x
 You'll want to make sure TensorFlow 2.x is installed; see https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html for details.
 
+### Jetson Stats
+
+Jetson-stats is a package to monitoring and control your NVIDIA Jetson [Xavier NX, Nano, AGX Xavier, TX1, TX2] Works with all NVIDIA Jetson ecosystem.  
+Jtop can be used to monitor your NX's memory, cpu, gpu, etc.,  along with being able to clear the buffers as needed.
+
+Follow the instructions at https://github.com/rbonghi/jetson_stats#jetson_release to install.  
 
 ## Overview
 This is a very simple image classification example based on https://github.com/tensorflow/tensorrt/tree/master/tftrt/examples/image-classification. You'll learn how to convert a Keras model to three tf-trt models, a fp32, fp16, and int8.  A simple set of test images will be used to both validate and benchmark both the native model and the three tf-trt ones.
