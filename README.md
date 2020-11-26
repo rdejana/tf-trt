@@ -26,6 +26,23 @@ Follow the instructions at https://github.com/rbonghi/jetson_stats#jetson_releas
 ## Overview
 This is a very simple image classification example based on https://github.com/tensorflow/tensorrt/tree/master/tftrt/examples/image-classification. You'll learn how to convert a Keras model to three tf-trt models, a fp32, fp16, and int8.  A simple set of test images will be used to both validate and benchmark both the native model and the three tf-trt ones.
 
+### Scripts
+tbd
+
+Download the test images with the following commands
+
+```
+mkdir ./data
+wget  -O ./data/img0.JPG "https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/siberian-husky-detail.jpg?bust=1535566590&width=630"
+wget  -O ./data/img1.JPG "https://www.hakaimagazine.com/wp-content/uploads/header-gulf-birds.jpg"
+wget  -O ./data/img2.JPG "https://www.artis.nl/media/filer_public_thumbnails/filer_public/00/f1/00f1b6db-fbed-4fef-9ab0-84e944ff11f8/chimpansee_amber_r_1920x1080.jpg__1920x1080_q85_subject_location-923%2C365_subsampling-2.jpg"
+wget  -O ./data/img3.JPG "https://www.familyhandyman.com/wp-content/uploads/2018/09/How-to-Avoid-Snakes-Slithering-Up-Your-Toilet-shutterstock_780480850.jpg"
+```
+
+
+### Notebook
+
+
 
 
 https://github.com/tensorflow/tensorrt/blob/master/tftrt/examples/image-classification/NGC-TFv2-TF-TRT-inference-from-Keras-saved-model.ipynb
