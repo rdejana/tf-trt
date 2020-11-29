@@ -11,7 +11,15 @@ There appears to be an issue with the python implementation protobuf (see https:
 ```
 sh install_protobuf-3.13.0.sh
 ```
-The script will take some time to complete.  Once done, reboot your NX.
+The script will take some time to complete.  
+
+Now you'll need to run the following commands
+```
+cd /usr/local/lib/python3.6/dist-packages/protobuf-3.13.0-py3.6-linux-aarch64.egg/google
+sudo cp -R /usr/local/lib/python3.6/dist-packages/protobuf-3.13.0-py3.6-linux-aarch64.egg/google/protobuf /usr/local/lib/python3.6/dist-packages/google/
+```
+
+Once done, reboot your NX.
 
 ### TensorFlow 2.x
 You'll want to make sure TensorFlow 2.x is installed; see https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html for details.
