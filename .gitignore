@@ -4,6 +4,7 @@ python/resnet50_saved_model_TFTRT_FP16
 python/resnet50_saved_model_TFTRT_FP32
 python/resnet50_saved_model_TFTRT_INT8
 notebooks/data
+notebooks/resnet50_saved_model
 notebooks/resnet50_saved_model_TFTRT_FP16
 notebooks/resnet50_saved_model_TFTRT_FP32
 notebooks/resnet50_saved_model_TFTRT_INT8
