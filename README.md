@@ -15,9 +15,9 @@ The script will take some time to complete.
 
 Now you'll need to run the following commands
 ```
-cd /usr/local/lib/python3.6/dist-packages/protobuf-3.13.0-py3.6-linux-aarch64.egg/google
 sudo cp -R /usr/local/lib/python3.6/dist-packages/protobuf-3.13.0-py3.6-linux-aarch64.egg/google/protobuf /usr/local/lib/python3.6/dist-packages/google/
 ```
+Note, if you get an error regarding google.buff, e.g. `No module named 'google.protobuf` rerun the command above.
 
 Once done, reboot your NX.
 
